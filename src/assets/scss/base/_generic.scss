@@ -1,6 +1,8 @@
 /** 
  * Generic
  */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
 html {
   font-size: $typographic-root-font-size;
 }
@@ -25,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $typographic-font-family;
+  font-family: $typographic-headings-font-family;
   font-weight: 600;
 }
 
