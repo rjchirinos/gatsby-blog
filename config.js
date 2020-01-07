@@ -1,14 +1,14 @@
 "use strict";
 
 module.exports = {
-  url: "https://lumen.netlify.com",
+  url: "https://raulchirinos.netlify.com",
   pathPrefix: "/",
   title: "Raúl Chirinos",
   subtitle: "Freelance Web Developer",
-  copyright: "© All rights reserved.",
+  copyright: "Copyright 2020 © All rights reserved.",
   disqusShortname: "",
   postsPerPage: 4,
-  googleAnalyticsId: "UA-73379983-2",
+  googleAnalyticsId: "UA-119787776-2",
   useKatex: false,
   menu: [
     {
