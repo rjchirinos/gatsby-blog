@@ -1,7 +1,7 @@
 ---
 template: post
-title: LyricsBot
-slug: lyricsbot
+title: LyrixsBot
+slug: lyrixsbot
 draft: false
 date: 2020-01-07T15:30:11.390Z
 description: >-
