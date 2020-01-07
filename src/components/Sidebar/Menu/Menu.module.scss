@@ -1,5 +1,5 @@
-@import '../../../assets/scss/variables';
-@import '../../../assets/scss/mixins';
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
 
 .menu {
   @include margin-bottom(1);
@@ -18,6 +18,7 @@
         color: $typographic-base-font-color;
         font-weight: normal;
         border: 0;
+        font-family: $typographic-headings-font-family;
 
         &:hover,
         &:focus {
@@ -29,11 +30,7 @@
           color: $color-base;
           border-bottom: 1px solid $color-base;
         }
-
       }
-
     }
-
   }
-
 }
