@@ -21,3 +21,5 @@ LyrixsBot is a Telegram bot who allows user to look for song lyrics within the T
 ![lyrixsbot-image](/media/lyrixsbot.png)
 
 Built using Python 3.5, the Telegram Bot API and the Genius API
+
+Check on telegram: http://t.me/lyrixs_bot
