@@ -4,7 +4,7 @@ title: Contact me
 slug: contacts
 draft: false
 ---
-Lets be honest... Nobody like contact forms.
+Lets be honest... Nobody likes contact forms.
 
 Email: **[raulstuf@gmail.com](mailto:raulstuf@gmail.com)**
 
