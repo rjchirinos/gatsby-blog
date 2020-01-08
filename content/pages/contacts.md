@@ -4,7 +4,7 @@ title: Contact me
 slug: contacts
 draft: false
 ---
-Lets be honest... Nobody like submit forms.
+Lets be honest... Nobody like contact forms.
 
 Email: **[raulstuf@gmail.com](mailto:raulstuf@gmail.com)**
 
@@ -14,4 +14,4 @@ Telegram: **http://t.me/zenraul**
 
 ![contact chart](/media/1_g5bew_a7ngvj3acpd4bdsq.jpeg "-UX Collective")
 
-> *[\-UX Collective](https://uxdesign.cc/your-users-do-not-trust-contact-forms-but-what-do-they-use-instead-a89bee668e48)*
+> If the website displays both a contact form and an email address, most people will use the email address (67,3%). *[\-UX Collective](https://uxdesign.cc/your-users-do-not-trust-contact-forms-but-what-do-they-use-instead-a89bee668e48)*
