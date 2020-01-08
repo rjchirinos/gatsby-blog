@@ -6,7 +6,7 @@ draft: false
 ---
 Lets be honest... Nobody like submit forms.
 
-Email: **raulstuf@gmail.com**
+Email: **[raulstuf@gmail.com](mailto:raulstuf@gmail.com)**
 
 LinkedIn: **http://linkedin.com/i/rjchirinos**
 
