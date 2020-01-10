@@ -31,8 +31,7 @@ module.exports = {
   author: {
     name: "Raúl Chirinos",
     photo: "/photo.jpg",
-    bio:
-      "Web Developer based in Venezuela. Love to work with individuals and startups to make the web a better place",
+    bio: "Freelance Web Developer",
     contacts: {
       email: "raulstuf@gmail.com",
       facebook: "",
