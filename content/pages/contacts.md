@@ -8,7 +8,7 @@ Lets be honest... Nobody likes contact forms.
 
 Email: **[raulstuf@gmail.com](mailto:raulstuf@gmail.com)**
 
-LinkedIn: **http://linkedin.com/i/rjchirinos**
+LinkedIn: **http://linkedin.com/in/rjchirinos**
 
 Telegram: **http://t.me/zenraul**
 
