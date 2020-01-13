@@ -20,7 +20,7 @@ class Werewolf {
   }
   
   bite() {
-    console.log(`${this.name} just bit you`);
+    console.log(`*${this.name} just bit you*`);
   }
   
   howl() {
@@ -37,17 +37,16 @@ In our Forbidden Forest we want to have some spiders, so let's make that class t
 class Spider {
   constructor(name) {
     this.name = name;
-    this.crawling = false;
   }
   
   bite() {
-    console.log(`${this.name} just bit you`)
+    console.log(`*${this.name} just bit you*`)
   }
   
   crawl() {
-    this.crawling = true;
+    console.log(`TickyClickTick... I'm ${this.name}`)
   }
 }
 ```
 
-Both werewolves and spiders bite, so we create a Parent class with this feature following the Don't Repeat Yourself
+Both werewolves and spiders bite, so we create a Parent class with this feature following the DRY (Don't Repeat Yourself) principle
