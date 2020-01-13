@@ -16,7 +16,7 @@ Lets say you have a Werewolf class
 ```javascript
 class Werewolf {
   constructor(name) {
-    this.name = name
+    this.name = name;
   }
   
   bite() {
@@ -40,11 +40,11 @@ class Spider {
   }
   
   bite() {
-    console.log(`*${this.name} just bit you*`)
+    console.log(`*${this.name} just bit you*`);
   }
   
   crawl() {
-    console.log(`TickyClickTick... I'm ${this.name}`)
+    console.log(`TickyClickTick... I'm ${this.name}`);
   }
 }
 ```
@@ -75,7 +75,7 @@ class Spider extends Creature {
 }
 ```
 
-Cool, now we have a fancy forest with spiders and werewolves, but we need some adults to protect all of the students from this creatures, so let's make a Professor class.
+Cool, now we have a fancy forest with spiders and werewolves, but we need some adults to protect all of the students from these creatures, so let's make a Professor class.
 
 ```javascript
 class Professor {
@@ -88,7 +88,7 @@ class Professor {
   }
   
   spell() {
-    console.log(`${this.name}: "Stupefy"`)
+    console.log(`${this.name}: "Stupefy"`);
   }
 }
 ```
@@ -102,11 +102,11 @@ class DeathEater {
   }
   
   kill() {
-    console.log(`${this.name}: "Avada Kedavra"`)
+    console.log(`${this.name}: "Avada Kedavra"`);
   }
   
   spell() {
-    console.log(`${this.name}: "Stupefy"`)
+    console.log(`${this.name}: "Stupefy"`);
   }
 }
 ```
@@ -116,11 +116,11 @@ So we create a parent class for this pair too.
 ```javascript
 class Wizard {
   constructor(name) {
-    this.name = name
+    this.name = name;
   }
   
   spell() {
-    console.log(`${this.name}: "Stupefy"`)
+    console.log(`${this.name}: "Stupefy"`);
   }
 }
 
@@ -132,7 +132,7 @@ class Professor extends Wizard {
 
 class DeathEater extends Wizard {
   kill() {
-    console.log(`${this.name}: "Avada Kedavra"`)
+    console.log(`${this.name}: "Avada Kedavra"`);
   }
 }
 ```
