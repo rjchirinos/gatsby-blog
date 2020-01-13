@@ -20,7 +20,7 @@ class Werewolf {
   }
   
   bite() {
-    `${this.name} just bit you`
+    console.log(`${this.name} just bit you`);
   }
   
   howl() {
@@ -28,3 +28,26 @@ class Werewolf {
   }
 }
 ```
+
+Our Werewolf is now able to bite and to howl, a pretty basic summary of what werewolves do, but let's leave it like that for now.
+
+In our Forbidden Forest we want to have some spiders, so let's make that class too
+
+```javascript
+class Spider {
+  constructor(name) {
+    this.name = name;
+    this.crawling = false;
+  }
+  
+  bite() {
+    console.log(`${this.name} just bit you`)
+  }
+  
+  crawl() {
+    this.crawling = true;
+  }
+}
+```
+
+Both werewolves and spiders bite, so we create a Parent class with this feature following the Don't Repeat Yourself
