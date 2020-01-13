@@ -49,4 +49,28 @@ class Spider {
 }
 ```
 
-Both werewolves and spiders bite, so we create a Parent class with this feature following the DRY (Don't Repeat Yourself) principle
+Both werewolves and spiders bite, so we create a Parent class with this feature following the DRY (Don't Repeat Yourself) principle.
+
+```javascript
+class Creature {
+  constructor(name) {
+    this.name = name;
+  }
+  
+  bite() {
+    console.log(`*${this.name} just bit you*`);
+  }
+}
+
+class Werewolf extends Creature {
+  howl() {
+    console.log(`Ahwoooooooooo! I'm ${this.name}`);
+  }
+}
+
+class Spider extends Creature { 
+  crawl() {
+    console.log(`TickyClickTick... I'm ${this.name}`);
+  }
+}
+```
