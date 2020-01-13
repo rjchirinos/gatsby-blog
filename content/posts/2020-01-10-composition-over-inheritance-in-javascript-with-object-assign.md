@@ -74,3 +74,65 @@ class Spider extends Creature {
   }
 }
 ```
+
+Cool, now we have a fancy forest with spiders and werewolves, but we need some adults to protect all of the students from this creatures, so let's make a Professor class.
+
+```javascript
+class Professor {
+  constructor(name) {
+    this.name = name;
+  }
+  
+  teach() {
+    console.log(`I'm professor ${this.name}, open your books`);
+  }
+  
+  spell() {
+    console.log(`${this.name}: "Stupefy"`)
+  }
+}
+```
+
+But professors are not the only ones who can cast spells, and lately there have been horrible news about Death Eaters killing people, as if werewolves and spiders were not enough in this magical world.
+
+```javascript
+class DeathEater {
+  constructor(name) {
+    this.name = name;
+  }
+  
+  kill() {
+    console.log(`${this.name}: "Avada Kedavra"`)
+  }
+  
+  spell() {
+    console.log(`${this.name}: "Stupefy"`)
+  }
+}
+```
+
+So we create a parent class for this pair too.
+
+```javascript
+class Wizard {
+  constructor(name) {
+    this.name = name
+  }
+  
+  spell() {
+    console.log(`${this.name}: "Stupefy"`)
+  }
+}
+
+class Professor extends Wizard {  
+  teach() {
+    console.log(`I'm professor ${this.name}, open your books`);
+  }
+}
+
+class DeathEater extends Wizard {
+  kill() {
+    console.log(`${this.name}: "Avada Kedavra"`)
+  }
+}
+```
