@@ -164,3 +164,5 @@ Wizard {
   }
 }
 ```
+
+We can be happy now, we have a pretty magical word with werevolves, wizards and spiders, a pair of books come and go and everybody seems to like the schema we design. Inheritance help us to solve some repetitive code and makes our product more organized, what could be wrong?
