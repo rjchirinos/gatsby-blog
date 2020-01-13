@@ -11,4 +11,20 @@ tags:
   - javascript
   - composition
 ---
-todo
+Lets say you have a Werewolf class, its well known that werewolves can howl and bite
+
+```javascript
+class werewolf {
+  constructor(name) {
+    this.name = name
+  }
+  
+  bite() {
+    `${this.name} just bit you`
+  }
+  
+  howl() {
+    console.log(`Ahwoooooooooo! I'm ${this.name}`);
+  }
+}
+```
