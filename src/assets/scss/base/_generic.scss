@@ -139,6 +139,10 @@ blockquote {
   text-align: center;
 }
 
+pre[class*="language-"] {
+  background-color: #212121 !important;
+}
+
 figure {
   display: block;
   width: 100%;
